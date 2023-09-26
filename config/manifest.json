@@ -1,0 +1,26 @@
+{
+    "app_name": "Privacy Pack",
+    "description": "Launch Privacy Pack",
+    "category": "privacy",
+    "vendor": "BigID",
+    "is_interactive": true,
+    "actions": [
+        {
+            "action_id": "updateURL",
+            "description": "Update URL to redirect users",
+            "is_sync": true,
+            "action_params": [
+                {
+                    "param_name": "Redirect URL",
+                    "param_type": "string",
+                    "is_cleartext": true,
+                    "param_description": "What URL should we redirect to",
+                    "default_value": "https://bigid.com",
+                    "param_priority": "primary",
+                    "is_mandatory": true
+                }
+            ]
+        }
+    ],
+    "global_params": []
+}
